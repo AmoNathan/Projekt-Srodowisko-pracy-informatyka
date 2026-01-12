@@ -1,0 +1,29 @@
+[ START ]
+    |
+    v
+[ Logowanie ]
+(Podsatwowo login + Haslo)
+    |
+    v
+< poprawne dane? > ---- NIE ----> [ bledne dane logowania ]
+    |
+   TAK
+    |
+    v
+[ wyswietlenie pierwszych aut ]
+(Obliczanie średnich, min/max dla wierszy i kolumn)
+    |
+    v
+[ like ]
+    |------------------------|
+    v                        v           
+    tak                     Nie
+    |                        |   
+    v                        v
+(zdjecie polubiane)      (zdjecie kierowane jest do nie polubianych)
+    |                          |
+    v                          v
+[ nastepne zdjecie ]        <---|
+    |
+    v
+[ KONIEC ]

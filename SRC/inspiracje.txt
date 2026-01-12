@@ -1,0 +1,28 @@
+SŁOWA KLUCZOWE I SKOJARZENIA:
+Tinder dla samochodów
+
+-Przeglądanie aut jednym ruchem
+-Szybkie decyzje: lubię / nie lubię
+-Odkrywanie nowych modeli
+-Personalizacja gustu motoryzacyjnego
+-Inspiracja przed zakupem auta
+-Zabawa + motoryzacja
+-Nowoczesny, intuicyjny interfejs
+-Zdjęcia w wysokiej jakości
+
+KRÓTKA LISTA ELEMENTÓW PROJEKTU:
+
+-Interfejs użytkownika (swipe: lubię / nie lubię)
+-Baza zdjęć samochodów
+-System zapisu preferencji użytkownika
+-Logika dopasowania (match)
+-Backend / logika aplikacji
+-Dokumentacja projektu
+-Repozytorium Git
+-Diagram procesu aplikacji
+
+WSTĘPNE  DANE :
+
+-baza zdjec
+-oceny uzytkownikow
+-dane uzytkownikow
