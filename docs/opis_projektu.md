@@ -10,15 +10,18 @@ graph TD
         Params[/"Parametry: Cena / Rok / Przebieg"/]
     end
     
-    Swipe[Widok Swipe (Like  / Pass )]
+    Swipe[Widok Swipe (Like / Pass)]
     Match[Match / Zainteresowanie]
     
     User -->|Szukam auta| Input
     Input -->|Załaduj oferty| App
-    App --> Cars & Params
-    Cars & Params -->|Analiza preferencji| Swipe
+    App --> Cars
+    App --> Params
+    Cars -->|Analiza preferencji| Swipe
+    Params -->|Analiza preferencji| Swipe
     Swipe -->|Interakcja użytkownika| User
     Swipe -->|Polubione| Match
     
     style App fill:#f96,stroke:#333,stroke-width:2px
     style Swipe fill:#bbf,stroke:#333
+
