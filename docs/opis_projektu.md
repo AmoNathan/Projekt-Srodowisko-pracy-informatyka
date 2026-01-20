@@ -1,51 +1,28 @@
 ```mermaid
 
 graph TD
-
     User([Użytkownik: Kupujący / Sprzedawca])
-
-    Input["Oferty aut (baza danych / API)"]
-
+    Input[/"Oferty aut (baza danych / API)"/]
     App{{Aplikacja Car Swipe}}
-
     
-
     subgraph "Przetwarzanie Danych (Dopasowanie)"
-
-        Cars["Auta: Marka / Model"]
-
-        Params["Parametry: Cena / Rok / Przebieg"]
-
+        Cars[/"Auta: Marka / Model"/]
+        Params[/"Parametry: Cena / Rok / Przebieg"/]
     end
-
     
-
-    Swipe[Widok Swipe (Like / Pass)]
-
+    Swipe[Widok Swipe<br/>(Like  / Pass )]
     Match[Match / Zainteresowanie]
-
     
-
     User -->|Szukam auta| Input
-
-    Input -->|Załaduj oferty| App
-
+    Input -->|Wczytanie ofert| App
     App --> Cars
-
     App --> Params
-
     Cars -->|Analiza preferencji| Swipe
-
     Params -->|Analiza preferencji| Swipe
-
-    Swipe -->|Interakcja użytkownika| User
-
+    Swipe -->|Decyzja użytkownika| User
     Swipe -->|Polubione| Match
-
     
-
     style App fill:#f96,stroke:#333,stroke-width:2px
-
     style Swipe fill:#bbf,stroke:#333
 
 
