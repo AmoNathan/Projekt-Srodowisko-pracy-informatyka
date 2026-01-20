@@ -10,8 +10,8 @@ graph TD
         Params[/"Parametry: Cena / Rok / Przebieg"/]
     end
     
-    Heatmap[Widok Swipe<br/>(Like  / Pass )]
-    Report[Match / Zainteresowanie]
+    Swipe[Widok Swipe<br/>(Like  / Pass )]
+    Match[Match / Zainteresowanie]
     
     User -->|Szukam auta| Input
     Input -->|Wczytanie ofert| App
@@ -25,4 +25,4 @@ graph TD
     style App fill:#f96,stroke:#333,stroke-width:2px
     style Swipe fill:#bbf,stroke:#333
 
-
+```
