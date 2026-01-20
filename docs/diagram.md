@@ -10,7 +10,7 @@ graph TD
     GenView[Generowanie Widoku Przeglądania]
 
     %% Widoki aplikacji
-    Swipe["Widok Swipe<br/>(Prawo: Lubię ❤️<br/>Lewo: Pomijam ❌)"]
+    Swipe["Widok Swipe<br/>(Prawo: Lubię <br/>Lewo: Pomijam )"]
     Details["Widok Szczegółów Auta<br/>(Galeria, Specyfikacja)"]
 
     %% Akcje użytkownika
