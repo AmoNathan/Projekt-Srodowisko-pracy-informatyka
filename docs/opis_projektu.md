@@ -10,7 +10,7 @@ graph TD
         Params[/"Parametry: Cena / Rok / Przebieg"/]
     end
     
-    Swipe[Widok Swipe (Like ❣️ / Pass ❌)]
+    Swipe[Widok Swipe (Like  / Pass )]
     Match[Match / Zainteresowanie]
     
     User -->|Szukam auta| Input
